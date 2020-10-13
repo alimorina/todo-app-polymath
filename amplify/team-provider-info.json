@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoapppolymath-dev-172216-authRole",
+      "UnauthRoleArn": "arn:aws:iam::537546254409:role/amplify-todoapppolymath-dev-172216-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::537546254409:role/amplify-todoapppolymath-dev-172216-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-todoapppolymath-dev-172216-deployment",
+      "UnauthRoleName": "amplify-todoapppolymath-dev-172216-unauthRole",
+      "StackName": "amplify-todoapppolymath-dev-172216",
+      "StackId": "arn:aws:cloudformation:us-east-1:537546254409:stack/amplify-todoapppolymath-dev-172216/e2893ed0-0d67-11eb-b0ad-0a374cd00e27",
+      "AmplifyAppId": "d2ttd8arze9pko"
+    }
+  }
+}

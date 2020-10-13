@@ -1,0 +1,52 @@
+{
+	"lists": [
+		{
+			"name": "First List",
+			"id": 1,
+			"date_created": "09/10/2020",
+			"type": "List",
+			"children": [
+				{
+					"type": "Task",
+					"id": 11,
+					"name": "first task",
+					"date_created": "09/10/2020",
+					"has_parent": true
+				},
+				{
+					"type": "Task",
+					"id": 12,
+					"name": "second",
+					"date_created": "10/10/2020",
+					"parent_id": 1,
+					"has_parent": true,
+					"children": {
+						"type": "Subtask",
+						"id": 123,
+						"name": "Subtasku",
+						"date_created": "10/10/2020",
+						"parent_id": 12,
+						"has_parent": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Second Task",
+			"id": 2,
+			"date_created": "18/09/2020",
+			"type": "Task",
+			"parent_id": null,
+			"has_parent": false,
+			"children": [
+				{
+					"type": "Subtask",
+					"id": 21,
+					"date_created": "18/09/2020",
+					"parent_id": 2,
+					"has_parent": true
+				}
+			]
+		}
+	]
+}
