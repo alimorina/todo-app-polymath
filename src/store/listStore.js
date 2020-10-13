@@ -79,7 +79,7 @@ const exists = (name, list) => {
 const notify = (message, type) => {
 	const properties = {
 		position: "top-center",
-		autoClose: 2500,
+		autoClose: 1000,
 		hideProgressBar: true,
 		closeOnClick: true,
 		pauseOnHover: true,
