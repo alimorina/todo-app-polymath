@@ -8,7 +8,7 @@ const Grid = observer(() => {
 	const listStore = useListsStore();
 	return (
 		<div>
-			<h2 className="mt-4">List</h2>
+			<h2 className="mt-4">Listat</h2>
 			<NewListForm />
 			{listStore.lists.map(
 				({ id, name, isEditing, completed, children, type, level }) => {
